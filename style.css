@@ -43,14 +43,14 @@ body{
   backdrop-filter: blur(10px);
 }
 
-.avatar{
-  width: 92px;
-  height: 92px;
+.avatar {
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid rgba(255,255,255,0.18);
+  object-position: 50% 18%; /* <-- move focus up/down */
   display: block;
-  margin: 0 auto 14px;
+  margin: 0 auto;          /* <-- centers the avatar */
 }
 
 .avatar-fallback{
@@ -165,3 +165,4 @@ body{
 .instagram { box-shadow: inset 0 0 0 999px rgba(225,48,108,0.08); }
 .tiktok { box-shadow: inset 0 0 0 999px rgba(0,0,0,0.06); }
 .youtube { box-shadow: inset 0 0 0 999px rgba(255,0,0,0.08); }
+
