@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Joshua's Digital Arsenal" />
+    <title>Joshua Sumanghid | Digital Arsenal</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <section class="card" aria-label="Digital Products">
+        
+        <img
+          class="avatar"
+          src="assets/avatar.png"
+          alt="Joshua Sumanghid"
+          loading="lazy"
+          onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='grid';"
+        />
+        <div id="avatarFallback" class="avatar-fallback" aria-hidden="true" style="display:none;">J</div>
+
+        <h1 class="name">Joshua Sumanghid</h1>
+        <p class="tagline">Builder. Python & AI Automation.<br>My Digital Inventory 👇</p>
+
+        <nav class="links" aria-label="Product Links">
+          
+          <a class="link-btn product-btn" href="https://gumroad.com/YOUR_ACTUAL_LINK_HERE" target="_blank">
+            <i class="fa-solid fa-robot" aria-hidden="true"></i>
+            <span>Anime AI Chatbot Kit (v1)</span>
+          </a>
+
+          <div class="link-btn locked">
+            <i class="fa-solid fa-lock" aria-hidden="true"></i>
+            <span>[Locked] Python Automation Tool</span>
+          </div>
+
+          <div class="link-btn locked">
+            <i class="fa-solid fa-lock" aria-hidden="true"></i>
+            <span>[Locked] Future SaaS Project</span>
+          </div>
+
+        </nav>
+
+        <div class="actions">
+          <button id="copyBtn" class="secondary-btn" type="button">
+            <i class="fa-regular fa-copy" aria-hidden="true"></i>
+            <span>Share Shop Link</span>
+          </button>
+        </div>
+
+        <footer class="footer">
+          <small>© <span id="year"></span> Joshua Sumanghid</small>
+        </footer>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
